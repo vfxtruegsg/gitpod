@@ -337,3 +337,93 @@ img {
 .section-four {
   padding-top: 160px;
 }
+
+.section-four-header {
+  font-size: 54px;
+  line-height: 1.18;
+  text-align: center;
+  color: #12100c;
+
+  margin-bottom: 48px;
+}
+
+.section-four-list-full {
+  display: flex;
+  justify-content: space-around;
+}
+
+.section-four-list-separate {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  width: 384px;
+  border-radius: 16px;
+  background: #fff;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.sec-four-one-block {
+  height: 248px;
+}
+
+.sec-four-two-block {
+  height: 272px;
+}
+
+.sec-four-three-block {
+  height: 264px;
+}
+
+.section-four-text {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #12100c;
+  width: 336px;
+}
+
+.sec-four-item-separate {
+  width: 336px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 0 auto;
+}
+
+.sec-four-img {
+  height: 40px;
+}
+
+.section-four-header-in-block {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #12100c;
+}
+
+.span-text-block {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #12100c;
+}
+
+/* SECTION-FIVE */
+
+.section-five {
+  padding-top: 120px;
+}
+
+.first-line {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+  align-items: center;
+}
+
+.second-line {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+  align-items: center;
+}
