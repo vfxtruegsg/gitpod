@@ -419,11 +419,217 @@ img {
   justify-content: center;
   gap: 48px;
   align-items: center;
+  flex-wrap: wrap;
+  width: 720px;
+  margin: 0 auto;
 }
 
-.second-line {
+/* SECTION-SIX */
+
+.section-six {
+  padding-top: 178px;
+}
+
+.section-six-header {
+  font-size: 54px;
+  line-height: 1.33;
+  text-align: center;
+  color: #12100c;
+  margin-bottom: 48px;
+}
+
+.sec-six-all-block {
   display: flex;
-  justify-content: center;
-  gap: 48px;
   align-items: center;
+  gap: 26px;
+}
+
+/* ===== FIRST BLOCK ===== */
+
+.sec-six-list-first-block {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  align-items: center;
+
+  border-radius: 20px;
+  width: 642px;
+  height: 651px;
+  background: #fff;
+
+  padding-top: 56px;
+}
+
+.sec-six-block-header {
+  font-size: 32px;
+  line-height: 1.25;
+  text-align: center;
+  color: #12100c;
+  margin-bottom: 12px;
+}
+
+.sec-six-block-text {
+  font-size: 24px;
+  line-height: 1.33;
+  text-align: center;
+  color: rgba(18, 16, 12, 0.7);
+  width: 486px;
+}
+
+.sec-six-block-text-span {
+  display: block;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.33;
+  color: rgba(18, 16, 12, 0.7);
+
+  border-radius: 12px;
+  width: 151px;
+  height: 31px;
+  background: #ffe4bc;
+  margin: 8px auto 0;
+}
+
+.sec-six-item-btn {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+/* ======== BTN-SEC-SIX ======== */
+
+.sex-six-btn-gitlab {
+  border-radius: 12px;
+  width: 262px;
+  height: 46px;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+  background: #fc6d26;
+  border: none;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14286;
+  text-align: center;
+  color: #fff;
+
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.sex-six-btn-githab {
+  border-radius: 12px;
+  width: 262px;
+  height: 46px;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+  background: #000;
+  border: none;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14286;
+  text-align: center;
+  color: #fff;
+
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.sex-six-btn-bitbucket {
+  border-radius: 12px;
+  width: 262px;
+  height: 46px;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+  background: #2684ff;
+  border: none;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14286;
+  text-align: center;
+  color: #fff;
+
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.sex-six-btn-svg {
+  margin-left: 33px;
+}
+
+/* ======== BTN-SEC-SIX ======== */
+
+/* ===== FIRST BLOCK ===== */
+
+/* ===== SECOND BLOCK ===== */
+
+.sec-six-list-second-block {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+
+  border-radius: 20px;
+  width: 642px;
+  height: 651px;
+  background: #fff;
+
+  padding-top: 56px;
+}
+
+/* ===== SECOND BLOCK ===== */
+
+.list-workspace-all {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.list-workspace {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  border-radius: 12px;
+  width: 530px;
+  height: 56px;
+  background: #f9f9f9;
+
+  padding-left: 16px;
+  padding-right: 24px;
+}
+
+.list-workspace-svg-text {
+  display: flex;
+  align-items: center;
+}
+
+.sec-six-two-block-fill-text {
+  font-size: 20px;
+  line-height: 1;
+  text-align: center;
+  color: rgba(18, 16, 12, 0.7);
+  margin-left: 16px;
+}
+
+.sec-six-two-block-btn {
+  border-radius: 12px;
+  width: 143px;
+  height: 32px;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+  background: #12100c;
+  border: none;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14286;
+  text-align: center;
+  color: #fff;
+}
+
+/* FOOTER */
+
+.footer {
+  padding-top: 160px;
 }
