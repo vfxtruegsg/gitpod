@@ -76,6 +76,12 @@ img {
   display: flex;
   gap: 10px;
   align-items: center;
+
+  transition: transform 150ms;
+}
+
+.logo-name:hover {
+  transform: scale(1.05);
 }
 
 .icon-logo {
@@ -102,6 +108,13 @@ img {
 
   padding-top: 28px;
   padding-bottom: 28px;
+
+  transition: color 150ms;
+}
+
+.website-partions-link:hover,
+.website-partions-link:focus {
+  color: #ff8a00;
 }
 
 .header-btn {
@@ -115,6 +128,13 @@ img {
   font-size: 14px;
   line-height: 1.42857;
   color: #f9f9f9;
+
+  transition: transform 150ms;
+}
+
+.header-btn:hover,
+.header-btn:focus {
+  transform: scale(1.05);
 }
 
 /* HERO */
@@ -160,7 +180,7 @@ img {
   width: 160px;
   height: 46px;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
-  background: #ffae33;
+  background-color: #ffae33;
   border: none;
 
   font-weight: 700;
@@ -168,6 +188,14 @@ img {
   line-height: 1.25;
   text-align: center;
   color: #12100c;
+
+  transition: background-color 250ms, transform 250ms;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #ff8a00;
+  transform: scale(1.05);
 }
 
 .hero-text {
@@ -180,6 +208,15 @@ img {
 .hero-svg {
   display: flex;
   gap: 28px;
+}
+
+.hero-svg-icon {
+  transition: transform 250ms;
+}
+
+.hero-svg-icon:hover,
+.hero-svg-icon:focus {
+  transform: scale(1.2);
 }
 
 .icon-css {
@@ -255,7 +292,7 @@ img {
   width: 162px;
   height: 32px;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
-  background: #ffae33;
+  background-color: #ffae33;
   border: none;
 
   font-weight: 700;
@@ -263,6 +300,14 @@ img {
   line-height: 1.14286;
   text-align: center;
   color: #12100c;
+
+  transition: background-color 250ms, transform 250ms;
+}
+
+.section-two-btn-one:hover,
+.section-two-btn-one:focus {
+  background-color: #ff8a00;
+  transform: scale(1.05);
 }
 
 .section-two-btn-two {
@@ -278,6 +323,14 @@ img {
   line-height: 1.14286;
   text-align: center;
   color: #12100c;
+
+  transition: background-color 250ms, transform 250ms;
+}
+
+.section-two-btn-two:hover,
+.section-two-btn-two:focus {
+  background-color: #ff8886;
+  transform: scale(1.05);
 }
 
 /* SECTION-THREE */
@@ -330,6 +383,15 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-around;
+
+  transition: background-color 250ms, color 250ms, transform 250ms;
+}
+
+.section-three-btn:hover,
+.section-three-btn:focus {
+  background-color: #ffae33;
+  color: #fff;
+  transform: scale(1.05);
 }
 
 /* SECTION-FOUR */
@@ -362,6 +424,13 @@ img {
   background: #fff;
   align-items: center;
   justify-content: space-around;
+
+  transition: transform 250ms, background-color 250ms;
+}
+
+.section-four-list-separate:hover {
+  transform: scale(1.05);
+  background-color: #e6e6e6;
 }
 
 .sec-four-one-block {
@@ -424,10 +493,19 @@ img {
   margin: 0 auto;
 }
 
+.sec-five-svg {
+  transition: transform 250ms;
+}
+
+.sec-five-svg:hover {
+  transform: scale(1.1);
+}
+
 /* SECTION-SIX */
 
 .section-six {
   padding-top: 178px;
+  padding-bottom: 160px;
 }
 
 .section-six-header {
@@ -455,7 +533,7 @@ img {
   border-radius: 20px;
   width: 642px;
   height: 651px;
-  background: #fff;
+  background-color: #fff;
 
   padding-top: 56px;
 }
@@ -486,7 +564,7 @@ img {
   border-radius: 12px;
   width: 151px;
   height: 31px;
-  background: #ffe4bc;
+  background-color: #ffe4bc;
   margin: 8px auto 0;
 }
 
@@ -503,7 +581,7 @@ img {
   width: 262px;
   height: 46px;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
-  background: #fc6d26;
+  background-color: #fc6d26;
   border: none;
 
   font-weight: 700;
@@ -515,13 +593,22 @@ img {
   display: flex;
   align-items: center;
   gap: 16px;
+
+  transition: background-color 250ms, transform 250ms;
 }
+
+.sex-six-btn-gitlab:hover,
+.sex-six-btn-gitlab:focus {
+  background-color: #ff5500;
+  transform: scale(1.05);
+}
+
 .sex-six-btn-githab {
   border-radius: 12px;
   width: 262px;
   height: 46px;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
-  background: #000;
+  background-color: #000;
   border: none;
 
   font-weight: 700;
@@ -533,6 +620,13 @@ img {
   display: flex;
   align-items: center;
   gap: 16px;
+
+  transition: transform 250ms;
+}
+
+.sex-six-btn-githab:hover,
+.sex-six-btn-githab:focus {
+  transform: scale(1.05);
 }
 
 .sex-six-btn-bitbucket {
@@ -540,7 +634,7 @@ img {
   width: 262px;
   height: 46px;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
-  background: #2684ff;
+  background-color: #2684ff;
   border: none;
 
   font-weight: 700;
@@ -552,6 +646,14 @@ img {
   display: flex;
   align-items: center;
   gap: 16px;
+
+  transition: background-color 250ms, transform 250ms;
+}
+
+.sex-six-btn-bitbucket:hover,
+.sex-six-btn-bitbucket:focus {
+  background-color: #006eff;
+  transform: scale(1.05);
 }
 
 .sex-six-btn-svg {
@@ -618,7 +720,7 @@ img {
   width: 143px;
   height: 32px;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
-  background: #12100c;
+  background-color: #12100c;
   border: none;
 
   font-weight: 400;
@@ -626,10 +728,114 @@ img {
   line-height: 1.14286;
   text-align: center;
   color: #fff;
+
+  transition: transform 150ms;
+}
+
+.sec-six-two-block-btn:hover,
+.sec-six-two-block-btn:focus {
+  transform: scale(1.05);
 }
 
 /* FOOTER */
 
 .footer {
-  padding-top: 160px;
+  background-color: #fff;
+
+  padding-top: 48px;
+  padding-bottom: 32px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 170px;
+  margin-bottom: 48px;
+}
+
+.footer-one-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100px;
+}
+
+.footer-two-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 87px;
+}
+
+.footer-three-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 56px;
+}
+
+.footer-four-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 98px;
+}
+
+.footer-list-title {
+  font-size: 13px;
+  line-height: 1.5;
+  color: #12100c;
+}
+
+.footer-list-link {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1.5;
+  color: rgba(18, 16, 12, 0.7);
+
+  transition: color 100ms;
+}
+
+.footer-list-link:hover {
+  color: #ffae33;
+}
+
+.footer-end {
+  width: 852px;
+  border-top: 2px solid #ece7e5;
+  margin: 0 auto;
+  padding-top: 32px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-end-sec-one {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.footer-text {
+  font-size: 13px;
+  line-height: 1.5;
+  color: rgba(18, 16, 12, 0.7);
+}
+
+.footer-end-sec-two {
+  display: flex;
+  gap: 16px;
+}
+
+.footer-svg {
+  fill: #ff8a00;
+
+  transition: transform 250ms;
+}
+
+.footer-svg:hover,
+.footer-svg:focus {
+  transform: scale(1.2);
+  fill: #ff7300;
 }
